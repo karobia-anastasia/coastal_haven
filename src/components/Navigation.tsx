@@ -47,9 +47,9 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            <Button className="bg-coral hover:bg-coral-light text-foreground">
-              Book Now
-            </Button>
+             <Button className="bg-coral hover:bg-coral-light text-foreground"> 
+              <a href="#story"> Get Started</a>
+            </Button> 
           </div>
 
           {/* Mobile Menu Button */}

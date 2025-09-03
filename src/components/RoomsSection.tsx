@@ -50,9 +50,11 @@ const RoomsSection = () => {
         </p>
         
         <div className="text-center mt-8">
-          <Button className="bg-coral hover:bg-coral-light text-foreground">
+          <a href="#story">          
+            <Button className="bg-coral hover:bg-coral-light text-foreground">
             Book Your Stay
-          </Button>
+          </Button></a>
+
         </div>
       </div>
     </section>

@@ -25,7 +25,7 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-foreground animate-slide-in">
-          Karibu to <span className="text-coral">Coastal Haven</span>
+          Karibu <span className="text-coral">Coastal Haven</span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-6 animate-slide-in" style={{ animationDelay: "0.1s" }}>
           Where Every Tide Tells a Story
