@@ -27,9 +27,11 @@ const RoomCard = ({ title, description, price, features }: RoomCardProps) => {
         <p className="text-lg font-semibold text-coral">From {price}/night</p>
       </CardContent>
       <CardFooter className="p-6 pt-0">
-        <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+        
+        {/* <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
           View Details
-        </Button>
+        </Button> */}
+
       </CardFooter>
     </Card>
   );
