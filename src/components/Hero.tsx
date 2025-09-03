@@ -35,18 +35,24 @@ const Hero = () => {
           kisses your skin, and your soul begins to dance.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-in" style={{ animationDelay: "0.3s" }}>
-          <Button size="lg" className="bg-coral hover:bg-coral-light text-foreground">
-            Begin Your Coastal Story
-          </Button>
-          <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-            Watch the Sunset
-          </Button>
+          <a href="#story">
+            <Button size="lg" className="bg-coral hover:bg-coral-light text-foreground">
+              Begin Your Coastal Story
+            </Button>
+          </a>
+          <a href="#story">
+            <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+              Watch the Sunset
+            </Button>
+          </a>
         </div>
+
       </div>
 
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-float">
-        <svg
+      <a href="#story">
+          <svg
           className="w-6 h-6 text-muted-foreground"
           fill="none"
           stroke="currentColor"
@@ -54,6 +60,7 @@ const Hero = () => {
         >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
+      </a>
       </div>
     </section>
   );
