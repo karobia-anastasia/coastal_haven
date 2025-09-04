@@ -35,13 +35,17 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 text-coral" />
                 <span className="text-secondary/80">Watamu, Kenya</span>
               </div>
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-coral" />
                 <span className="text-secondary/80">+254 700 123 456</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-coral" />
-                <span className="text-secondary/80">info@coastalhaven.ke</span>
+                <span className="text-secondary/80">bookings@coastalhavenresort.co.ke</span>
+              </div>
+                            <div className="flex items-center gap-3">
+                <Mail className="w-4 h-4 text-coral" />
+                <span className="text-secondary/80">info@coastalhavenresort.co.ke</span>
               </div>
             </div>
           </div>
