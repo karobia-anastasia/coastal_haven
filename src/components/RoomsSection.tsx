@@ -4,28 +4,28 @@ import { Button } from "@/components/ui/button";
 const RoomsSection = () => {
   const rooms = [
     {
-      title: "Dhow Suite",
-      description: "Oceanfront luxury with driftwood design",
-      price: "$250",
-      features: ["Ocean View", "King Bed", "Private Terrace"],
+      title: "Swahili Suite",
+      description: "Elegant suite with carved Lamu doors and ocean breeze",
+      price: "Ksh 28,000",
+      features: ["Ocean View", "King Bed", "Private Balcony"],
     },
     {
-      title: "Palm House",
-      description: "Family-friendly villa with hammock terrace",
-      price: "$180",
-      features: ["Garden View", "2 Bedrooms", "Kitchen"],
+      title: "Baobab Cottage",
+      description: "Rustic hideaway shaded by ancient baobab trees",
+      price: "Ksh 19,000",
+      features: ["Garden View", "Outdoor Lounge", "Rain Shower"],
     },
     {
-      title: "Stargazer Hut",
-      description: "Romantic eco-hut with lantern lighting",
-      price: "$150",
-      features: ["Skylight", "Queen Bed", "Outdoor Shower"],
+      title: "Tamu Villa",
+      description: "Spacious family villa with coastal charm",
+      price: "Ksh 22,500",
+      features: ["2 Bedrooms", "Kitchenette", "Hammock Patio"],
     },
     {
-      title: "Coral Villa",
-      description: "Coral stone luxury meets tradition",
-      price: "$350",
-      features: ["Sea View", "Suite", "Private Pool"],
+      title: "Safari Loft",
+      description: "Romantic loft with coastal-safari fusion décor",
+      price: "Ksh 17,500",
+      features: ["Open Rooftop", "Queen Bed", "Star Gazing Deck"],
     },
   ];
 
@@ -34,27 +34,29 @@ const RoomsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">
-            Stay Your Way
+            Your Coastal Haven Awaits
           </h2>
-          <p className="text-xl text-coral">Each Room, a Coastal Poem</p>
+          <p className="text-xl text-coral">
+            From Swahili Suites to Stargazing Lofts
+          </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {rooms.map((room, index) => (
             <RoomCard key={index} {...room} />
           ))}
         </div>
-        
-        <p className="text-center text-muted-foreground">
-          All rooms include: AC, sea or garden views, and breakfast
-        </p>
-        
-        <div className="text-center mt-8">
-          <a href="#story">          
-            <Button className="bg-coral hover:bg-coral-light text-foreground">
-            Book Your Stay
-          </Button></a>
 
+        <p className="text-center text-muted-foreground">
+          All rooms include: air conditioning, sea or garden views, Swahili breakfast, and free Wi-Fi
+        </p>
+
+        <div className="text-center mt-8">
+          <a href="#story">
+            <Button className="bg-coral hover:bg-coral-light text-foreground">
+              Book Your Stay
+            </Button>
+          </a>
         </div>
       </div>
     </section>
