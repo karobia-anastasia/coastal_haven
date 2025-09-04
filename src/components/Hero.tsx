@@ -50,7 +50,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-float">
+      {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-float">
       <a href="#story">
           <svg
           className="w-6 h-6 text-muted-foreground"
@@ -61,7 +61,7 @@ const Hero = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
       </a>
-      </div>
+      </div> */}
     </section>
   );
 };
