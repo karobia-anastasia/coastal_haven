@@ -20,16 +20,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center space-x-2">
-            <svg
-              className="w-8 h-8 text-primary"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path d="M3 17.5c0-3.5 2-5.5 5-5.5s3 2 6 2 3-2 6-2 5 2 5 5.5" />
-              <path d="M3 21.5c0-3.5 2-5.5 5-5.5s3 2 6 2 3-2 6-2 5 2 5 5.5" />
-            </svg>
+            <img
+              src="/logo.jpeg"
+              alt="Coastal Haven Logo"
+              className="w-8 h-8 object-cover rounded-full"
+            />
             <span className="text-xl font-semibold text-foreground">
               Coastal Haven
             </span>
@@ -46,9 +41,9 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-             <Button className="bg-coral hover:bg-coral-light text-foreground"> 
-              <a href="#story"> Get Started</a>
-            </Button> 
+            <Button className="bg-coral hover:bg-coral-light text-foreground">
+              <a href="#story">Get Started</a>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}

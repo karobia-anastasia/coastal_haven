@@ -30,20 +30,17 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h4 className="text-lg font-semibold mb-4 text-sand">Contact</h4>
-            <div className="space-y-3">
+            <div className="space-y-3 text-sm">
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-coral" />
                 <span className="text-secondary/80">Watamu, Kenya</span>
               </div>
-              {/* <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-coral" />
-                <span className="text-secondary/80">+254 700 123 456</span>
-              </div> */}
+      
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-coral" />
                 <span className="text-secondary/80">bookings@coastalhavenresort.co.ke</span>
               </div>
-                            <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 text-sm">
                 <Mail className="w-4 h-4 text-coral" />
                 <span className="text-secondary/80">info@coastalhavenresort.co.ke</span>
               </div>
