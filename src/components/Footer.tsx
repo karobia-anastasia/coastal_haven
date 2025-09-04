@@ -49,18 +49,10 @@ const Footer = () => {
 
           {/* Social */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-sand">Follow Us</h4>
-            <div className="flex gap-4">
-              {[Facebook, Instagram, Twitter].map((Icon, index) => (
-                <a
-                  key={index}
-                  href="#"
-                  className="w-10 h-10 bg-sand/10 rounded-full flex items-center justify-center hover:bg-coral/20 transition-colors"
-                >
-                  <Icon className="w-5 h-5 text-sand" />
-                </a>
-              ))}
-            </div>
+          <h3 className="text-xl font-semibold mb-4 text-sand">Coastal Haven Resort</h3>
+            <p className="text-secondary/80">
+          Karibu <span className="text-coral">Coastal Haven</span>
+            </p>
           </div>
         </div>
 
