@@ -3,42 +3,50 @@ import { Card } from "@/components/ui/card";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+// ✅ Import local image
+import image1 from "@/assets/image_1.jpg"; 
+import image2 from "@/assets/image_3.jpg"; 
+import image3 from "@/assets/image2.jpg"; 
+import image9 from "@/assets/image9.jpg"; 
+
+
 
 const GallerySection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
+  // ✅ Gallery images (first one is local)
   const galleryImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+      src: image1,
       alt: "Luxury Pool View",
       category: "Resort",
       title: "Infinity Pool at Sunset"
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800&q=80",
+      src: image2,
       alt: "Beach View",
       category: "Beach",
       title: "Private Beach Access"
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80",
+      src: image2,
       alt: "Suite Interior",
       category: "Rooms",
       title: "Ocean View Suite"
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=80",
+      src: image2,
       alt: "Dining Experience",
       category: "Dining",
       title: "Beachfront Restaurant"
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&q=80",
+      src: image2,
       alt: "Spa Treatment",
       category: "Wellness",
       title: "Luxury Spa Treatment"
@@ -52,21 +60,21 @@ const GallerySection = () => {
     },
     {
       id: 7,
-      src: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+      src: image3,
       alt: "Garden View",
       category: "Resort",
       title: "Tropical Gardens"
     },
     {
       id: 8,
-      src: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+      src: image2,
       alt: "Couple Experience",
       category: "Experiences",
       title: "Romantic Getaway"
     },
     {
       id: 9,
-      src: "https://images.unsplash.com/photo-1559599746-8823b38544c6?w=800&q=80",
+      src: image9,
       alt: "Dhow Sailing",
       category: "Activities",
       title: "Traditional Dhow Cruise"
@@ -76,8 +84,8 @@ const GallerySection = () => {
   const categories = ["All", "Resort", "Beach", "Rooms", "Dining", "Wellness", "Activities", "Experiences"];
   const [activeCategory, setActiveCategory] = useState("All");
 
-  const filteredImages = activeCategory === "All" 
-    ? galleryImages 
+  const filteredImages = activeCategory === "All"
+    ? galleryImages
     : galleryImages.filter(img => img.category === activeCategory);
 
   const handlePrevious = () => {
@@ -102,7 +110,7 @@ const GallerySection = () => {
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
             Experience the beauty of our coastal paradise through these moments
           </p>
-          
+
           {/* Category Filter */}
           <div className="flex flex-wrap justify-center gap-3 mb-8">
             {categories.map((category) => (
@@ -155,7 +163,7 @@ const GallerySection = () => {
                   alt={filteredImages[selectedImage].alt}
                   className="w-full h-auto max-h-[80vh] object-contain"
                 />
-                
+
                 {/* Navigation Controls */}
                 <Button
                   size="icon"
@@ -169,7 +177,7 @@ const GallerySection = () => {
                 >
                   <ChevronLeft className="h-6 w-6" />
                 </Button>
-                
+
                 <Button
                   size="icon"
                   variant="ghost"
@@ -182,7 +190,7 @@ const GallerySection = () => {
                 >
                   <ChevronRight className="h-6 w-6" />
                 </Button>
-                
+
                 <Button
                   size="icon"
                   variant="ghost"
@@ -191,7 +199,7 @@ const GallerySection = () => {
                 >
                   <X className="h-6 w-6" />
                 </Button>
-                
+
                 {/* Image Info */}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background to-transparent p-6">
                   <p className="text-sm font-medium text-ocean mb-1">
