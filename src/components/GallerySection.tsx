@@ -8,6 +8,10 @@ import image1 from "@/assets/image_1.jpg";
 import image2 from "@/assets/image_3.jpg"; 
 import image3 from "@/assets/image2.jpg"; 
 import image9 from "@/assets/image9.jpg"; 
+import image4 from "@/assets/image4.jpg"; 
+import image5 from "@/assets/image5.jpg"; 
+import image6 from "@/assets/image6.jpg"; 
+import image7 from "@/assets/image7.jpg"; 
 
 
 
@@ -32,21 +36,21 @@ const GallerySection = () => {
     },
     {
       id: 3,
-      src: image2,
+      src: image7,
       alt: "Suite Interior",
       category: "Rooms",
       title: "Ocean View Suite"
     },
     {
       id: 4,
-      src: image2,
+      src: image6,
       alt: "Dining Experience",
       category: "Dining",
       title: "Beachfront Restaurant"
     },
     {
       id: 5,
-      src: image2,
+      src: image5,
       alt: "Spa Treatment",
       category: "Wellness",
       title: "Luxury Spa Treatment"
@@ -67,7 +71,7 @@ const GallerySection = () => {
     },
     {
       id: 8,
-      src: image2,
+      src: image4,
       alt: "Couple Experience",
       category: "Experiences",
       title: "Romantic Getaway"
