@@ -58,7 +58,7 @@ const Footer = () => {
 
         <div className="border-t border-sand/20 pt-8 text-center">
           <p className="text-secondary/60">
-            © 2024 Coastal Haven. All rights reserved. | Privacy Policy | Terms of Service
+            © 2025 Coastal Haven. All rights reserved. | Privacy Policy | Terms of Service
           </p>
         </div>
       </div>
