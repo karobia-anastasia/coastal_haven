@@ -4,14 +4,14 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 // ✅ Import local image
-import image1 from "@/assets/image_1.jpg"; 
-import image2 from "@/assets/image_3.jpg"; 
-import image3 from "@/assets/image2.jpg"; 
-import image9 from "@/assets/image9.jpg"; 
-import image4 from "@/assets/image4.jpg"; 
-import image5 from "@/assets/image5.jpg"; 
-import image6 from "@/assets/image6.jpg"; 
-import image7 from "@/assets/image7.jpg"; 
+import image1 from "../assets/image_1.jpg"; 
+import image2 from "../assets/image_3.jpg"; 
+import image3 from "../assets/image2.jpg"; // adjust based on file location
+import image9 from "../assets/image9.jpg"; 
+import image4 from "../assets/image4.jpg"; 
+import image5 from "../assets/image5.jpg"; 
+import image6 from "../assets/image6.jpg"; 
+import image7 from "../assets/image7.jpg"; 
 
 
 
