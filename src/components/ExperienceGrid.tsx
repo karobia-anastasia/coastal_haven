@@ -18,7 +18,7 @@ import { Button } from "@/components/ui/button";
 const ExperienceGrid = () => {
   const experiences = [
     {
-      icon: <Waves className="w-8 h-8" />,
+      // icon: <Waves className="w-8 h-8" />,
       title: "Marine Safari",
       description: "Snorkeling & dolphin-spotting in Kisite-Mpunguti",
       details:
@@ -28,7 +28,7 @@ const ExperienceGrid = () => {
       highlights: ["Park fees included", "Lunch in Wasini", "All gear provided"],
     },
     {
-      icon: <Trees className="w-8 h-8" />,
+      // icon: <Trees className="w-8 h-8" />,
       title: "Baobab Nature Walk",
       description: "Guided walk under ancient baobab trees in Kilifi",
       details:
@@ -38,7 +38,7 @@ const ExperienceGrid = () => {
       highlights: ["Local guide", "Medicinal plants", "Bird watching"],
     },
     {
-      icon: <Utensils className="w-8 h-8" />,
+      // icon: <Utensils className="w-8 h-8" />,
       title: "Swahili Cooking Class",
       description: "Hands-on cooking with a Mombasa chef",
       details:
@@ -48,7 +48,7 @@ const ExperienceGrid = () => {
       highlights: ["Cooking + dining", "Spice tour", "Vegetarian options"],
     },
     {
-      icon: <Ship className="w-8 h-8" />,
+      // icon: <Ship className="w-8 h-8" />,
       title: "Lamu Dhow Cruise",
       description: "Sunset sailing with Swahili music and snacks",
       details:
@@ -58,7 +58,7 @@ const ExperienceGrid = () => {
       highlights: ["Live taarab music", "Swahili snacks", "Private options"],
     },
     {
-      icon: <Palette className="w-8 h-8" />,
+      // icon: <Palette className="w-8 h-8" />,
       title: "Cultural Village Tour",
       description: "Visit a Mijikenda kaya and artisan co-op",
       details:
@@ -68,7 +68,7 @@ const ExperienceGrid = () => {
       highlights: ["Kaya forest", "Cultural exchange", "Craft shopping"],
     },
     {
-      icon: <Heart className="w-8 h-8" />,
+      // icon: <Heart className="w-8 h-8" />,
       title: "Beachfront Wellness",
       description: "Sunrise yoga and Swahili spa treatments",
       details:
@@ -78,7 +78,7 @@ const ExperienceGrid = () => {
       highlights: ["Baobab balm massage", "Yoga mats provided", "Oceanfront"],
     },
     {
-      icon: <Sun className="w-8 h-8" />,
+      // icon: <Sun className="w-8 h-8" />,
       title: "Watamu Beach Fun",
       description: "Paddleboarding, kayaking & beach games",
       details:
@@ -88,7 +88,7 @@ const ExperienceGrid = () => {
       highlights: ["Equipment rental", "Games setup", "Guided or solo"],
     },
     {
-      icon: <Star className="w-8 h-8" />,
+      // icon: <Star className="w-8 h-8" />,
       title: "Diani Stargazing",
       description: "Constellations over the Indian Ocean",
       details:
@@ -98,7 +98,7 @@ const ExperienceGrid = () => {
       highlights: ["Telescope", "Mythology talk", "Night picnic optional"],
     },
     {
-      icon: <Music className="w-8 h-8" />,
+      // icon: <Music className="w-8 h-8" />,
       title: "Swahili Music Nights",
       description: "Taarab, chakacha & Afro-fusion under the stars",
       details:
@@ -108,7 +108,7 @@ const ExperienceGrid = () => {
       highlights: ["Live performances", "Bonfire vibes", "Cultural immersion"],
     },
     {
-      icon: <Camera className="w-8 h-8" />,
+      // icon: <Camera className="w-8 h-8" />,
       title: "Photography Safari",
       description: "Golden hour shoots along ruins and reefs",
       details:
@@ -118,7 +118,7 @@ const ExperienceGrid = () => {
       highlights: ["Editing tips", "Scenic spots", "Wildlife optional"],
     },
     {
-      icon: <Fish className="w-8 h-8" />,
+      // icon: <Fish className="w-8 h-8" />,
       title: "Indian Ocean Fishing",
       description: "Big game sport fishing from Kilifi or Malindi",
       details:
@@ -128,7 +128,7 @@ const ExperienceGrid = () => {
       highlights: ["Top gear", "Pro skippers", "Snacks included"],
     },
     {
-      icon: <Sparkles className="w-8 h-8" />,
+      // icon: <Sparkles className="w-8 h-8" />,
       title: "Romantic Experiences",
       description: "Private dinners, picnics & dhow proposals",
       details:
